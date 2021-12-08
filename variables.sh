@@ -14,4 +14,4 @@ echo date is "${DATE}"
 ADD=$((2+3))
 echo ADD = ${ADD}
 USERNAME=$(read -p 'Enter name: ' name)
-echo name is ${USERNAME}
+echo "${USERNAME}"
