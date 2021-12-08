@@ -8,6 +8,6 @@ echo a=${a}
 echo b=${b}
 echo c=${c}
 DATE=2021-12-07
-echo date=${DATE}
+echo date is ${DATE}
 DATE=$(date +%F)
-echo date=${DATE}
+echo date is ${DATE}
