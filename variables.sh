@@ -11,3 +11,7 @@ DATE=2021-12-08
 echo date is ${DATE}
 DATE=$(date +%F)
 echo date is "${DATE}"
+ADD=$((2+3))
+echo ADD = ${ADD}
+USERNAME=$(read -p 'Enter name: ' name)
+echo name is ${name}
