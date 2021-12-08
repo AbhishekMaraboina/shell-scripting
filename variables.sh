@@ -7,7 +7,7 @@ c=true
 echo a=${a}
 echo b=${b}
 echo c=${c}
-DATE=2021-12-07
+DATE=2021-12-08
 echo date is ${DATE}
 DATE=$(date +%F)
-echo date is ${DATE}
+echo date is "${DATE}"
