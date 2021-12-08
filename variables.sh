@@ -13,5 +13,7 @@ DATE=$(date +%F)
 echo date is "${DATE}"
 ADD=$((2+3))
 echo ADD = ${ADD}
-USERNAME=$(read -p 'Enter name: ' name)
-echo "${USERNAME}"
+# shellcheck disable=SC2162
+read -p 'Enter name: ' name
+#USERNAME=$()
+echo NAME="${name}"
