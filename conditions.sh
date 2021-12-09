@@ -8,7 +8,8 @@ fi
 
 if [ ! -z "${age}" -a "${age}" -lt 18 ]; then
   echo You are a Minor
-elif [ ! -z "${age}" -a "${age}" -gt 60 ]; then
+#
+elif [ ! -z "${age}" -o "${age}" -gt 60 ]; then
   echo You are a senior citizen
 else
   echo You are Major
