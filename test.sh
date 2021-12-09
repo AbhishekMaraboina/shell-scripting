@@ -5,9 +5,9 @@
 #echo ${*}
 #echo ${#}
 
-if [$1 != abhi]; then
+if [ $1 != abhi ]; then
   exit
 else
-  echo ${1}
+  echo "${1}"
 fi
 
