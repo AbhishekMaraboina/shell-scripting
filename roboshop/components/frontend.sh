@@ -4,7 +4,7 @@ if [ $? -ne 0 ]; then
   exit 1
 fi
 
-curl -s -L -o /tmp/frontend.zip "https://github.com/roboshop-devops-project/frontend/archive/main.zi"
+curl -s -L -o /tmp/frontend.zip "https://github.com/roboshop-devops-project/frontend/archive/main.zip"
 if [ $? -ne 0 ]; then
   echo "Download Frontend Failed"
   exit 1
