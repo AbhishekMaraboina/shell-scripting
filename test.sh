@@ -11,3 +11,5 @@ else
   echo "${1}"
 fi
 
+#shell-scripting Functions and Directories practice
+ls
