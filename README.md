@@ -19,4 +19,5 @@ List of Topics
 8. Loops 
 
 Shell script is sequential, Meaning it executes line by lin.
+
 RoboShop project included
